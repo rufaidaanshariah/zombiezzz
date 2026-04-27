@@ -7,7 +7,7 @@ body {
     color: #718355; /* Default text color */
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Times New Roman', sans-serif;
     font-size: 16px;
 }
 
@@ -53,13 +53,13 @@ h2 {
 }
 
 .my-button {
-  background-color: #edede9; /* Button color */
-  color: #a11d33;              /* Text color */
-  padding: 10px 20px;       /* Space inside the button */
+  background-color: #656d4a; /* Button color */
+  color: #c2c5aa;              /* Text color */
+  padding: 20px 30px;       /* Space inside the button */
   border: none;             /* Remove default border */
   border-radius: 5px;       /* Rounded corners */
   cursor: pointer;          /* Change mouse to hand icon on hover */
-  font-size: 16px;          /* Size of the text */
+  font-size: 25px;          /* Size of the text */
   transition: 0.3s;         /* Smooth animation for effects */
   text-decoration: none;    /* Removes underline if using <a> tag */
   display: inline-block;    /* Ensures proper sizing for links */
@@ -67,7 +67,7 @@ h2 {
 
 /* Hover effect: changes color when the mouse is over the button */
 .my-button:hover {
-  background-color: #ffe5ec;
+  background-color: #780000;
 }
 
 .text-container {
