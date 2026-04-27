@@ -1,0 +1,71 @@
+body {
+    background-color:#cfe1b9;
+    background-image: ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #718355; /* Default text color */
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+
+a {
+    color: #6c584c; 
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: #132a13;
+    text-decoration: underline;
+}
+
+
+h1 {
+    color: #373d20; 
+    font-size: 36px;
+    margin: 24px 0 8px;
+}
+h2 {
+    color: #717744; 
+    font-size: 28px;
+    margin: 16px 0 8px;
+}
+
+.container {
+    text-align: left;
+    max-width: 550px;  /* Limit the width of the container */
+    margin: 0 auto;
+    position: absolute;
+    padding: 15px; /* Optional: add side padding for mobile screens */
+    background-color: #edede9
+    border-radius: 10px
+  
+
+}
+
+
+.left-text {
+  text-align: left;
+}
+
+.my-button {
+  background-color: #edede9; /* Button color */
+  color: #a11d33;              /* Text color */
+  padding: 10px 20px;       /* Space inside the button */
+  border: none;             /* Remove default border */
+  border-radius: 5px;       /* Rounded corners */
+  cursor: pointer;          /* Change mouse to hand icon on hover */
+  font-size: 16px;          /* Size of the text */
+  transition: 0.3s;         /* Smooth animation for effects */
+  text-decoration: none;    /* Removes underline if using <a> tag */
+  display: inline-block;    /* Ensures proper sizing for links */
+}
+
+/* Hover effect: changes color when the mouse is over the button */
+.my-button:hover {
+  background-color: #ffe5ec;
+}
