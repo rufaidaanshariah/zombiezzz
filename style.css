@@ -84,3 +84,9 @@ h2 {
   padding: 10px;
 }
 
+.speech-bubble {
+    padding: 12px 16px;          /* space between text and border */
+    border: 6px solid #333333;   /* visible outline */
+    border-radius: 60px;          /* rounds corners into bubble shape */
+    margin: 10px;                 /* space outside the bubble */
+}
