@@ -1,5 +1,5 @@
 body {
-    background-color:#cfe1b9;
+    background-color:#000000;
     background-image: url('hands.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -89,4 +89,5 @@ h2 {
     border: 6px solid #333333;   /* visible outline */
     border-radius: 60px;          /* rounds corners into bubble shape */
     margin: 10px;                 /* space outside the bubble */
+     background-color: #ffffff;
 }
